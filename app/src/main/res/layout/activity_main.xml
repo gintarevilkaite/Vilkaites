@@ -22,7 +22,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:onClick="btnChangeTextClick"
         app:layout_constraintBottom_toTopOf="@+id/tvMain"
         tools:layout_editor_absoluteX="160dp" />
+
+    <Button
+        android:id="@+id/changeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="btnChangeColor"
+        app:layout_constraintBottom_toTopOf="@+id/btnChangeText"
+        tools:layout_editor_absoluteX="162dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
